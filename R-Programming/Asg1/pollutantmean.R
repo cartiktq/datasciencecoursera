@@ -1,5 +1,5 @@
 pollutantmean <- function(directory, pollutant, id = 1:332){
-  #parentDir <- "/Users/cartik/Desktop"  
+  parentDir <- "/Users/cartik/Desktop"  
 
   directory <- paste(parentDir, directory, sep="/")
   data <- load_data(directory, id)
